@@ -1,0 +1,9 @@
+ function onlyElementsAtEvenIndex(array) {
+
+    let newArray = [];
+    for (var i = 0; i < array.length; i++) {
+    newArray.push(2*newArray[i]);     
+  
+    }
+    return newArray;
+}

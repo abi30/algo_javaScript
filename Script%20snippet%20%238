@@ -1,0 +1,4 @@
+var a = ["rakib","eva","humayra","Ismail"];
+console.log( a );
+a.splice(1,0,"lira");
+console.log(a)
